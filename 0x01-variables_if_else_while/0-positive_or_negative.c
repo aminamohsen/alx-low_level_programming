@@ -1,27 +1,28 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
-/* more headers goes there */
-/** 
- * main-entry point
- *
- * Return: Alawys 0 (sucess)
- */
+#include <stdio.h>
+/*more headers goes there*/
+/**
+*main - Entry point
+*Retur:Always 0 (Sucess)
+*/
+int main(void)
 {
-	init n;
+		int n;
 
-	srand(time(0));
-	n = rand() - RAND_Max / 2;
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf(("%d is zero\n", n);
-	}
-	else
-	{
-	printf(("%d is negative\n", n);
-			return (0);
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
+		if (n > 0)
+		{
+			printf("%d is positive\n", n);
+		}
+		else if (n < 0)
+		{
+			printf("%d is negative\n", n);
+		}
+		else
+		{
+			printf("%d is zero\n", n);
+		}
+		return (0);
 }
