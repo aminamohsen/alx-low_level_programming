@@ -3,14 +3,14 @@
 /**
 *main - Entry point
 *
-* Return: Always 0 (Succes)
+*Return:Always 0 (Succes)
 */
 int main(void)
 {
 	int n;
 	int i = 0;
 
-	for (n = 0 ; n < 100 ; n++)
+	for (n = 0; n < 100; n++)
 	{
 		putchar(n / 10 + '0');
 		putchar(i + '0');
@@ -24,10 +24,7 @@ int main(void)
 		{
 			i = 0;
 		}
-	}
-        	putchar('\n');
-		return (0);
 }
-
-					
-							
+        	putchar('\n');
+		return(0);
+}							
