@@ -4,6 +4,7 @@
 /*more headers goes there*/
 /**
 *main-Entry point
+*Discription: 'Check for number if it is positive or negative'
 *Retur:Always 0 (Sucess)
 */
 int main(void)
