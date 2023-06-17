@@ -2,8 +2,8 @@
 # include <time.h>
 # include <stdio.h>
 /**
- * main - Entry point
- * Discription: 'Check for number if it is positive or negative'
+ *main - Prints a random number and states whether
+ *it is positive, negative, or zero
  * Return: Always 0 (Sucess)
  */
 int main(void)
@@ -26,6 +26,3 @@ int main(void)
 	}
 		return (0);
 	}
-
-
-
