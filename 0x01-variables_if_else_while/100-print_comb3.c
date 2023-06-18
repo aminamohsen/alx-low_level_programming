@@ -1,0 +1,39 @@
+# include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0 (Sucess)
+ */
+int main(void)
+{
+	int i = 'o';
+	int j = 'o';
+
+	while (i <= '9')
+	{
+		while (j <= '9')
+		{
+			if (!(i > j) || i == j)
+			{
+			putchar(i);
+		putchar(j);
+		if (i == '8' && j == '9')
+		{
+			putchar('\n');
+		}
+		else
+		{
+			putchar(',');
+			putchar(' ');
+		}
+			}
+			j++
+		}
+	}
+	j = 'o';
+	i++;
+}
+return (0);
+}
+
+
+
