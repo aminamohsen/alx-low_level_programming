@@ -9,16 +9,11 @@
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_Max / 2;
-<<<<<<< HEAD
 
-	/* your code goes there */
-	if(n < 0)
-=======
-	if (n > 0)
->>>>>>> 89a964adeeb804351a4d0a417386f2d7af13e6fb
+	if (n < 0)
 	{
 		printif("%d is %s\n", n, "negative");
 	}
