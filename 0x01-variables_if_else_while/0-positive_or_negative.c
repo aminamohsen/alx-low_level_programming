@@ -10,8 +10,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(Null));
-	int n = (int)rand() - RAND_Max / 2;
+	srand(time(0));
+	n = rand() - RAND_Max / 2;
 
 	if (n > 0)
 	{
