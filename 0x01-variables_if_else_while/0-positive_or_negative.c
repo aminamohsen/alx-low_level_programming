@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
         int n;
 
         srand(time(0));
@@ -27,3 +28,25 @@ int main(void)
         }
 	return (0);
 }
+=======
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_Max / 2;
+
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else
+	{
+		printf("%d is zeroe\n", n);
+	}
+
+	return (0);
+	}
+>>>>>>> 801854cd2abdee7e830340ddf240939c7dac7d15
