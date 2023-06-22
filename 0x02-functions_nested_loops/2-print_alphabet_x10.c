@@ -1,22 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * add - adds two numbers together.
- * @i: The first number to be added.
- * @j: The second number to be added.
- * Return: the sum of two numbers.
+ * print_alphabet_x10 - prints alphabet 10 times
+ * Return:void
  */
-int add(int i, int j)
-{
-	return (i + j);
-}
-/**
- * main - Entry point
- * Return: Always 0
- */
-int main(void)
-{
-	int result = add(5, 7);
 
-	printf("The result is: %d\n", result);
-	return (0);
+void print_alphabet_x10(void)
+{
+	char c;
+	int i = 0;
+
+	while (i < 10)
+	{
+	c = 'a';
+	while (c <= 'z')
+	{
+	_putchar(c);
+	c++;
+	}
+	_putchar('\n');
+	i++;
+	}
 }
