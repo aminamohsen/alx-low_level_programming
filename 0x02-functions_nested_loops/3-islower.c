@@ -6,9 +6,9 @@
  * Return:0 or 1
  */
 
-double _islower(int c)
+int _islower(int c)
 {
-		return (c >= 97 && c <= 122);
+	        if (c >= 97 && c <= 122);
 		return (1);
-		return(0);
+		return (0);
 }
