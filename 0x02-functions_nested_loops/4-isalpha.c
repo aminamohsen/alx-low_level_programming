@@ -1,15 +1,17 @@
-#include "main.h"
-/**
- * _isalpha - check for lower case letter
- * @c : character to check
- * Return:0 or 1
- */
-int _isalpha(int c)
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+#include <stdio.h>
+#include <ctype.h>
+
+int main(void)
 {
-	return (1);
-}
-else
-{
+	char c = 'T';
+
+	if (isalpha(c))
+	{
+		printf("%c is an alphabetic character\n", c);
+	}
+	else
+	{
+		printf("%c is not an alphabetic character\n", c);
+	}
 	return (0);
 }
