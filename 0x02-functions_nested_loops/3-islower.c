@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stadio.h"
 
 /**
  * _islower - check for lower case letter
