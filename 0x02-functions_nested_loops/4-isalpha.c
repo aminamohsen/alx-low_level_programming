@@ -1,17 +1,13 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
-int main(void)
+/**
+ * _isalpha - check for lower case letter
+ * @c : character to check
+ * Return:0 or 1
+ */
+
+int _isalpha(int c)
 {
-	char c = 'T';
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 
-	if (isalpha(c))
-	{
-		printf("%c is an alphabetic character\n", c);
-	}
-	else
-	{
-		printf("%c is not an alphabetic character\n", c);
-	}
-	return (0);
 }
